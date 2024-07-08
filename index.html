@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nancy's Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1> Nancy's Gallery </h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Welcome to Nancy's Gallery </h2>
+            <p>A handpicked collection of inspiring images from across the web</p>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>My Favorite Gallery</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="nature">Nature</button>
+                <button class="filter-btn" data-filter="architecture">Architecture</button>
+                <button class="filter-btn" data-filter="technology">Technology</button>
+            </div>
+            <div class="gallery-grid">
+                <!-- <img src="Landscape.jpg"> -->
+                <!-- Gallery items will be dynamically added here -->
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2> My Story </h2>
+            <p> Welcome to my visual journey curated with care, a collection of images chosen from the vast expanse of the internet </p>
+            <p> Each image, though not personally captured, has been handpicked for its unique ability to evoke emotions, tell stories, and ignite curiosity </p>
+            <p>We invite you to explore this collection, discovering new perspectives and inspirations along the way. <br> Together, let's continue to appreciate and support the creative voices shaping our digital landscape</p>
+        </section>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Nancy's Gallery. All rights reserved.</p>
+        <p>Images sourced from various websites. All rights belong to their respective owners.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

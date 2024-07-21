@@ -1,13 +1,13 @@
 const galleryItems = [
     { src: 'Landscape.jpg', title: 'Beautiful Landscape', category: 'nature' },
     { src: 'ModernArchitecture.jpg', title: 'Modern Architecture', category: 'architecture' },
-    { src: 'TechInnovation.jpg', title: 'Tech Innovation', category: 'technology' },
+    { src: 'Tech Innovation.jpg', title: 'Tech Innovation', category: 'technology' },
     { src: '9b82cfd30e4db69aeb5ddd7e5f1b0e5a.jpg', title: 'Serene Waters', category: 'nature' },
-    { src: 'https://source.unsplash.com/random/800x600?building', title: 'Urban Skyline', category: 'architecture' },
-    { src: 'https://source.unsplash.com/random/800x600?computer', title: 'Digital World', category: 'technology' },
+    { src: 'Urban Skyline.jpg', title: 'Urban Skyline', category: 'architecture' },
+    { src: 'Technology.jpg', title: 'Digital World', category: 'technology' },
     { src: 'rwanda-lead-.jpg', title: 'Mountain Peak', category: 'nature' },
-    { src: 'https://source.unsplash.com/random/800x600?interior', title: 'Interior Design', category: 'architecture' },
-    { src: 'https://source.unsplash.com/random/800x600?gadget', title: 'Smart Devices', category: 'technology' },
+    { src: 'Interior Design.jpg', title: 'Interior Design', category: 'architecture' },
+    { src: 'Smart Device.jpg', title: 'Smart Devices', category: 'technology' },
 ];
 
 const galleryGrid = document.querySelector('.gallery-grid');
